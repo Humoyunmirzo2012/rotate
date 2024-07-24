@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.box {
+    width: 600px;
+    height: 600px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    transition: 2s;    
+}
+img:hover{
+    transform: rotate(360deg);
+}
